@@ -31,10 +31,6 @@ def contar_maiusculas(mensagem: str) -> int:
             
     return contador
 
-mensagem = input("Digite uma mensagem: ")
-total = contar_maiusculas(mensagem)
-print(f"A mensagem tem {total} letra maiusculas.")
-
 
 def mascarar_cartao(numero: str) -> str:
     """
